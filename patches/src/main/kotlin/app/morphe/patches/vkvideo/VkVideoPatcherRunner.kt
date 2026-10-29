@@ -6,6 +6,7 @@ import app.morphe.patcher.apk.ApkSigner
 import app.morphe.patcher.apk.ApkUtils
 import app.morphe.patcher.apk.ApkUtils.applyTo
 import app.morphe.patcher.dex.BytecodeMode
+import app.morphe.patches.vkvideo.ad.feedAdsPatch
 import app.morphe.patches.vkvideo.ad.videoAdsPatch
 import app.morphe.patches.vkvideo.video.videoQualityPatch
 import app.morphe.patches.vkvideo.misc.cloneAppPatch
@@ -89,6 +90,7 @@ fun main(args: Array<String>) {
         println("Registering patches...")
         patcher += setOf(
             videoAdsPatch,
+            feedAdsPatch,
             videoQualityPatch,
             securityPatch,
             telemetryPatch,
