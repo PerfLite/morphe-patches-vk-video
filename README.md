@@ -21,7 +21,7 @@
 
 | Файл | Описание | Ссылка |
 |---|---|---|
-| `vk-video-morphe-cloned.apk` | Клонированная сборка без рекламы и с 1080p | [Скачать](https://github.com/PerfLite/morphe-patches-vk-video/releases/latest/download/vk-video-morphe-cloned.apk) |
+| `patches-1.0.0.mpp` | Бандл патчей Morphe для «VK Видео» | [Скачать](https://github.com/PerfLite/morphe-patches-vk-video/releases/download/v1.0.0/patches-1.0.0.mpp) |
 
 > Старые версии и список изменений: [Релизы](https://github.com/PerfLite/morphe-patches-vk-video/releases)
 
@@ -43,7 +43,9 @@
 
 ### Установка
 
-Скачайте готовый APK-файл из раздела [Релизы](https://github.com/PerfLite/morphe-patches-vk-video/releases/latest) и установите на устройство.
+1. Скачайте `patches-1.0.0.mpp` со страницы [Релизы](https://github.com/PerfLite/morphe-patches-vk-video/releases/latest).
+2. Импортируйте бандл в Morphe Manager.
+3. Выберите исходный APK «VK Видео» (проверено на 1.168) и соберите патченный установщик.
 
 ```
 https://github.com/PerfLite/morphe-patches-vk-video
