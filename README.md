@@ -43,9 +43,16 @@
 
 ### Установка
 
+Добавьте репозиторий в Morphe Manager как удалённый источник:
+
+```
+https://github.com/PerfLite/morphe-patches-vk-video
+```
+
+Либо вручную:
 1. Скачайте `patches-1.0.0.mpp` со страницы [Релизы](https://github.com/PerfLite/morphe-patches-vk-video/releases/latest).
-2. Импортируйте бандл в Morphe Manager.
-3. Выберите исходный APK «VK Видео» (проверено на 1.168) и соберите патченный установщик.
+2. Импортируйте файл бандла в Morphe Manager.
+3. Выберите исходный APK «VK Видео» (проверено на версии 1.168) и запустите сборку.
 
 ```
 https://github.com/PerfLite/morphe-patches-vk-video
