@@ -8,6 +8,7 @@ import app.morphe.patcher.apk.ApkUtils.applyTo
 import app.morphe.patcher.dex.BytecodeMode
 import app.morphe.patches.vkvideo.ad.feedAdsPatch
 import app.morphe.patches.vkvideo.ad.videoAdsPatch
+import app.morphe.patches.vkvideo.ad.videoBannerAdsPatch
 import app.morphe.patches.vkvideo.video.videoQualityPatch
 import app.morphe.patches.vkvideo.misc.cloneAppPatch
 import app.morphe.patches.vkvideo.misc.iconColorPatch
@@ -91,6 +92,7 @@ fun main(args: Array<String>) {
         patcher += setOf(
             videoAdsPatch,
             feedAdsPatch,
+            videoBannerAdsPatch,
             videoQualityPatch,
             securityPatch,
             telemetryPatch,
